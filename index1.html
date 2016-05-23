@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Daeun Kang</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  <script src="p5.min.js"></script>
+        <script src="p5.play.js"></script>
+     <script src="game.js"></script>
+    
+    
+</head>
+<body>
+<style scoped>
+.jumbotron { 
+    background-color: white
+    color: #ffffff;
+}
+    .bg-grey {
+    background-color: #f6f6f6;
+}
+    .jumbotron {
+    background-color: white;
+    color: grey;
+    padding: 50px 25px;
+}
+
+.container-fluid {
+    padding: 30px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+    body{padding:0; margin:0;}
+    
+</style>
+    
+
+  <div class="jumbotron text-center">
+    <img src="img/chadrier2.jpg" width="200" height="283" alt="Cha">
+      <a href="index.html"> <h1>Daeun Kang</h1></a>
+      <div id="myContainer"><p>Artist, illustrator, Organization, Graphic designer, Interior designer</p></div>
+      
+    
+       
+      </div>
+
+
+<div id="about" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-5">
+
+
+     <img src="img/daeun2.jpg" class="img-circle" alt="Cinque Terre" width="204" height="236" alt="daeun">
+    </div>
+    <div class="col-sm-7">
+      <h2>Art is the most intense mode of individualism that the world has known.</h2>
+      <h4>-Oscar Wilde- </h4><p>I am a Korean woman, have been living in NYC for almost 3 years. Working in Design Industry where I can apply my knowledge of diverse design skills set and graphics art. In Korea I studied fine arts, computers and am certified in Microsoft excel. Along with my excellent organizational skills and a strong creative ability, I have on hand experience with several designing software like Photoshop, Illustrator, and Aftereffects.</p>
+    
+    </div>
+  </div>
+</div>
+    
+    <div id="portfolio" class="container-fluid text-center">
+  <h4>SIMPLE and SOPHISTICATED</h4>
+        <div id="myContainer1"></div>
+  
+  <div class="row text-center">
+      <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/cloud.jpg" alt="drawing">
+        <p><strong>Photography</strong></p>
+        <p>During traveling in Korea</p>
+      </div>
+    </div>
+        <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/drawing4.jpg" alt="drawing">
+        <p><strong>Drawing</strong></p>
+        <p>Commercial herbal medicine package drawing</p>
+      </div>
+    </div>
+        <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/interior2.jpg" alt="drawing">
+        <p><strong>Deco</strong></p>
+        <p>Add charcater to my little room</p>
+      </div>
+    </div>
+    
+      <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/drawing2.jpg" alt="drawing">
+        <p><strong>Drawing</strong></p>
+       <p>Drawing for my school portfolio</p>
+      </div>
+    </div>
+       <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/interior.jpg" alt="drawing">
+        <p><strong>Deco</strong></p>
+        <p>Upgrade my rental space </p>
+      </div>
+    </div>
+      <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/drawing1.jpg" alt="drawing">
+        <p><strong>Drawing</strong></p>
+        <p>Drawing for Robert Bianchi</p>
+      </div>
+    </div>
+
+
+</div> 
+        
+        <div class="container-fluid text-center">
+            <a href="https://www.youtube.com/channel/UCGFHaV2KB9emGXQhahh9unA"><h4>Video Arts</h4></a>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/n939uf3z0Bc" frameborder="0" allowfullscreen></iframe>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/EXA7g22uUtY" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact me and I'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> New York, US</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> dani56658@gmail.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+
+          </div>
+
+          </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+        
+       <div id="googleMap" style="height:400px;width:100%;"></div>
+
+        <!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(40.7427619,-73.9561019,17);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div id="about" class="container-fluid">
+<div id="portfolio" class="container-fluid">
+<div id="contact" class="container-fluid">
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Daeun's Portfolio Website Made By DAEUN KANG</p> 
+</footer>
+    </body> 
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+  // Prevent default anchor click behavior
+  event.preventDefault();
+
+  // Store hash
+  var hash = this.hash;
+
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  });
+})
+</script>
+</html>

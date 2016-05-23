@@ -1,0 +1,18 @@
+
+a h1 {
+    font-family: myFirstFont;
+    font-size: 3em;
+    color: black;
+}
+
+a h4 {
+    font-family: myFirstFont;
+    font-size: 3em;
+    color: black;
+}
+@font-face{
+font-family: myFirstFont;
+    src: url(huntress.otf);
+}
+
+iframe{max-width:100%;}
